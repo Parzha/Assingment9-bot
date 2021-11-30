@@ -1,5 +1,4 @@
 import telebot
-
 import segno
 from telebot import types
 import math
@@ -11,8 +10,6 @@ import random
 bot = telebot.TeleBot("2132705025:AAHEkyiqIyPu9QtVS56gqp07WfWSEZ069zc")
 
 count = 1
-
-
 def Click():
     global markup
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
